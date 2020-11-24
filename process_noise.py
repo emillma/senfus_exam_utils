@@ -12,7 +12,7 @@ A = sp.Matrix([[0, 1, 0, 0],
 zeros = sp.zeros(shape, shape)
 G = sp.MatrixSymbol('G', shape, shape)
 G = sp.Matrix([[0, 0],
-               [1, -1],
+               [1, 0],
                [0, 0],
                [0, 1]])
 
